@@ -23,9 +23,7 @@ MainScence::MainScence(QWidget *parent)
     setWindowTitle("翻金币主场景");
     //退出按钮实现
     connect(ui->action,&QAction::triggered,[=](){
-
         this->close();
-
     });
     //准备开始按钮的音效
     QSound * startSound= new QSound(":/new/prefix1/Image/TapButtonSound.wav",this);
