@@ -8,8 +8,13 @@ dataConfig::dataConfig(QObject *parent) : QObject(parent)
 
 
     //第一关
+<<<<<<< .merge_file_a09492
     int array1[4][4] = {{1,0, 1, 1},
                         {0, 0, 1, 1},
+=======
+    int array1[4][4] = {{1,1, 0, 1},
+                        {0, 1, 0, 1},
+>>>>>>> .merge_file_a05552
                         {1, 1, 0, 0},
                         {1, 1, 0, 1}} ;
     //将数组插入容器中
