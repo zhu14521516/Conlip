@@ -8,8 +8,8 @@ dataConfig::dataConfig(QObject *parent) : QObject(parent)
 
 
     //第一关
-    int array1[4][4] = {{1, 0, 1, 1},
-                        {0, 0, 1, 1},
+    int array1[4][4] = {{1,1, 1, 1},
+                        {0, 1, 1, 1},
                         {1, 1, 0, 0},
                         {1, 1, 0, 1}} ;
     //将数组插入容器中
